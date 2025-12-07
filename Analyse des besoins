@@ -1,1 +1,48 @@
 
+PROJET 1 : CARNET D’ADRESSE
+
+Analyse des besoins
+
+Objectif du projet
+Créer un carnet d’adresses numérique simple à utiliser, qui fonctionne dans la console, et qui garde les données dans un fichier (CSV). L’idée est de pouvoir ajouter, supprimer, rechercher et afficher des contacts facilement, avec des options pour rendre l’expérience plus pratique et sécurisée.
+
+Les informations à stocker pour chaque contact
+• Nom (obligatoire)
+• Prénom (obligatoire)
+• Numéro de téléphone (obligatoire, format correct)
+• Adresse e-mail (obligatoire, format correct)
+• Optionnel : Adresse postale, date de naissance, notes personnelles (pour enrichir le carnet).
+
+Fonctions essentielles
+• Ajouter un contact
+• Supprimer un contact
+• Rechercher un contact par nom
+• Afficher la liste des contacts triée
+• Sauvegarder les données dans un fichier CSV
+
+Fonctions bonus (pour aller plus loin)
+• Modifier un contact sans devoir le supprimer.
+• Détecter les doublons (par email ou téléphone).
+• Statistiques (nombre total de contacts, répartition par domaine d’email).
+• Sauvegarde automatique avant chaque modification.
+• Tri avancé (par prénom, email, numéro).
+• Recherche intelligente (tolérance aux fautes, ex. « Dupont » trouve « Dupon »).
+• Sécurité (chiffrement du fichier ou mot de passe).
+
+Contraintes
+• Interface console pour la version de base.
+• Fichier CSV pour la compatibilité.
+• Validation stricte des données (email, téléphone).
+• Doit rester rapide pour quelques centaines de contacts.
+
+Scénarios typiques
+• Ajout d’un contact valide → sauvegarde → affichage.
+• Ajout d’un doublon → message d’erreur.
+• Modification → mise à jour sans perte.
+• Exportation → fichier CSV généré.
+
+Qualités attendues
+• Fiabilité : Sauvegarde immédiate après modification.
+• Lisibilité : Affichage clair et structuré.
+• Portabilité : Compatible Windows/Linux/macOS.
+• Sécurité : Option de chiffrement ou mot de passe (si activée
