@@ -1,7 +1,7 @@
 
 PROJET 1 : CARNET D’ADRESSE
 
-Analyse des besoins
+Analyse des besoins 
 
 Objectif du projet
 Créer un carnet d’adresses numérique simple à utiliser, qui fonctionne dans la console, et qui garde les données dans un fichier (CSV). L’idée est de pouvoir ajouter, supprimer, rechercher et afficher des contacts facilement, avec des options pour rendre l’expérience plus pratique et sécurisée.
